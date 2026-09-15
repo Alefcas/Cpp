@@ -46,6 +46,7 @@ void bubble(int *vet, int tam)
 	fim = tam -1;
 	inicio = 0;
 	aux = 0;
+	
 	//MÉTODO DO BUBBLE PARA ORDENAR OS DADOS DO VETOR!
 	while(inicio < fim)
 	{
