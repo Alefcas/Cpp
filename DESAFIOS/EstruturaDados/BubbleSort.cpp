@@ -26,7 +26,7 @@ int main()
 		printf("[%d] ", vet[i]);
 	}
 	
-	bubble(vet, tam);
+	bubble(vet, tam); //INVOKE
 	
 	puts("\n\nVetor Original Ordenado pelo Bubble Sort: ");
 	for(int i = 0; i < tam; i++)
