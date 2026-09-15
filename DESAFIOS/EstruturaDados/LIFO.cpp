@@ -87,7 +87,7 @@ void menu()
 {
 	int opc = -1;
 	while(1){
-		puts("\n1 - Push\n2 - Pop\n3 - Mostrar\n4 - EXIT");
+		puts("\n1 - Push\n2 - Pop\n3 - Show\n4 - EXIT");
 		printf("Escolhe uma opcao: "); scanf("%d", &opc);
 		switch(opc){
 			case 1: int elem; 
