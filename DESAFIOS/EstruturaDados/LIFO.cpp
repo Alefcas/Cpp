@@ -77,7 +77,7 @@ void showLIFO()
 	}else{
 		int i;
 		for( i = topo; i >= 0; i--){
-			printf("\n[%d]", pilha[i]);
+			printf("\n[%d]", pilha[i]); 
 		}
 	}
 	
